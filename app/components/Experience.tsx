@@ -32,22 +32,9 @@ export default function Experience() {
       ],
     },
     {
-      company: "Cubical Geek",
-      location: "Karachi, Pakistan",
-      period: "November 2023 - April 2024",
-      role: "MERN Stack Developer",
-      responsibilities: [
-        "Develop a preduct for Employee Management System as an ERP system using MERN Stack",
-        "Built backend REST API and OAuth",
-        "Integrated third-party APIs",
-        "Implemented security features like jwt auth, password hashing, salting and secure password reset",
-        "Integrated drag and drop feature for project status transition, similar to JIRA",
-      ],
-    },
-    {
       company: "Atompoint",
       location: "Karachi, Pakistan",
-      period: "September 2024 - present",
+      period: "September 2024 - June 2025",
       role: "Full Stack Engineer",
       responsibilities: [
         "Developed full-stack applications using Node.js, Firebase, and AWS",
@@ -59,6 +46,20 @@ export default function Experience() {
         "Implemented effective security protocols, data protection measures, and storage solutions",
       ],
     },
+    {
+    company: "Maxon Enterprise",
+    location: "Karachi, Pakistan",
+    period: "July 2025 - Present",
+    role: "Software Engineer",
+    responsibilities: [
+      "Dedicated to the particular project of the POS/ERP of Maxon",
+      "Designed and implemented core modules for inventory management, sales tracking, and financial reporting",
+      "Optimized database schemas and queries to handle large-scale transaction data efficiently",
+      "Collaborated with stakeholders to gather requirements and iterate on system features",
+      "Conducted code reviews, debugging, and performance tuning to ensure system reliability",
+      "Implemented security measures including user authentication and data encryption",
+    ],
+  },
   ]
 
   return (
