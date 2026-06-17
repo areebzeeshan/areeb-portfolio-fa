@@ -29,7 +29,7 @@ const skills = [
   {
     icon: Database,
     name: "Database Management",
-    tech: "MongoDB, Mongoose, Firebase",
+    tech: "MongoDB, Mongoose, Firebase, Astra DB",
     description: "Designing and implementing efficient database schemas and queries for optimal data management.",
     color: "text-purple-500",
   },
@@ -64,8 +64,8 @@ const skills = [
   {
     icon: Cpu,
     name: "API Development",
-    tech: "REST, GraphQL",
-    description: "Designing and implementing efficient APIs for seamless data communication.",
+    tech: "REST, GraphQL, AI Integrations",
+    description: "Designing and implementing efficient APIs for seamless data communication and AI integrations.",
     color: "text-red-500",
   },
   {

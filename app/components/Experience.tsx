@@ -8,9 +8,38 @@ import AnimatedSectionHeader from "./AnimatedSectionHeader"
 export default function Experience() {
   const experiences = [
     {
+      company: "Maxon Enterprises",
+      location: "Karachi, Pakistan",
+      period: "July 2025 – January 2026",
+      role: "Software Engineer",
+      responsibilities: [
+        "Dedicated to the particular project of the POS/ERP of Maxon",
+        "Designed and implemented core modules for inventory management, sales tracking, and financial reporting",
+        "Optimized database schemas and queries to handle large-scale transaction data efficiently",
+        "Collaborated with stakeholders to gather requirements and iterate on system features",
+        "Conducted code reviews, debugging, and performance tuning to ensure system reliability",
+        "Implemented security measures including user authentication and data encryption",
+      ],
+    },
+    {
+      company: "Atompoint",
+      location: "Remote",
+      period: "Sep 2024 - June 2025",
+      role: "Full Stack Software Engineer",
+      responsibilities: [
+        "Developed full-stack applications using Node.js, Firebase, and AWS",
+        "Translated product team requirements into software solutions",
+        "Implemented best technical practices and guided teams in identifying optimal solutions",
+        "Developed and managed well-functioning databases and applications, including writing effective APIs and documentation",
+        "Optimized components for maximum performance across a vast array of web-capable devices and browsers",
+        "Developed high-performance applications by writing testable, reusable, and efficient code",
+        "Implemented effective security protocols, data protection measures, and storage solutions",
+      ],
+    },
+    {
       company: "Freelance",
       location: "Remote",
-      period: "2023 - Present",
+      period: "2023 - 2024",
       role: "MERN Stack Developer",
       responsibilities: [
         "Developing custom web applications for international clients",
@@ -42,21 +71,6 @@ export default function Experience() {
         "Integrated third-party APIs",
         "Implemented security features like jwt auth, password hashing, salting and secure password reset",
         "Integrated drag and drop feature for project status transition, similar to JIRA",
-      ],
-    },
-    {
-      company: "Atompoint",
-      location: "Karachi, Pakistan",
-      period: "September 2024 - present",
-      role: "Full Stack Engineer",
-      responsibilities: [
-        "Developed full-stack applications using Node.js, Firebase, and AWS",
-        "Translated product team requirements into software solutions",
-        "Implemented best technical practices and guided teams in identifying optimal solutions",
-        "Developed and managed well-functioning databases and applications, including writing effective APIs and documentation",
-        "Optimized components for maximum performance across a vast array of web-capable devices and browsers",
-        "Developed high-performance applications by writing testable, reusable, and efficient code",
-        "Implemented effective security protocols, data protection measures, and storage solutions",
       ],
     },
   ]
